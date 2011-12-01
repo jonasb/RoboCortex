@@ -33,10 +33,10 @@ typedef struct {
 
 // Control data
 typedef struct {
-  long mx;
-  long my;
-  long dx;
-  long dy;
+  int32_t mx;
+  int32_t my;
+  int32_t dx;
+  int32_t dy;
   unsigned char kb; // kb_bitmask_e
 } ctrl_t;
 
